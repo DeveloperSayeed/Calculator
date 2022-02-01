@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: cla;
+  src: url(./font/digital-7.ttf);
+}
+
+body {
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, #0eae57 0%, #0c7475 90%);
+  color: #fff;
+  font-family: cla;
+}
+
+.Calculator {
+  background-color: #202020;
+  width: 25rem;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 10px rgba(238, 238, 238, 0.609);
+          box-shadow: 0px 0px 10px rgba(238, 238, 238, 0.609);
+  margin: 50px auto;
+  overflow: hidden;
+  padding: 0 0 10px 0;
+}
+
+.Calculator .cal-head {
+  height: 150px;
+  background-color: #eeeded;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.Calculator .cal-head .disply-1 {
+  height: 60%;
+  color: #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 20px;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.Calculator .cal-head .disply-2 {
+  height: 40%;
+  color: #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 20px;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.Calculator .cal-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+}
+
+.Calculator .cal-body button {
+  width: 24%;
+  line-height: 4rem;
+  cursor: pointer;
+  background-color: #3b3b3b;
+  border: 1px solid #202020;
+  padding: 5px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.Calculator .cal-body button:hover {
+  background-color: #333133;
+}
+/*# sourceMappingURL=style.css.map */
